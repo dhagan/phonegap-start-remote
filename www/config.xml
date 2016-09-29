@@ -29,7 +29,7 @@
     <preference name="BackupWebStorage" value="none"/>
     <preference name="TopActivityIndicator" value="white"/>
     <preference name="KeyboardDisplayRequiresUserAction" value="true"/>
-    <preference name="KeyboardShrinksView " value="true"/>
+    <preference name="KeyboardShrinksView" value="true"/>
     <preference name="HideKeyboardFormAccessoryBar" value="true"/>
     <preference name="SuppressesIncrementalRendering" value="false"/>
     <preference name="windows-identity-name" value=""/>
@@ -41,6 +41,7 @@
     <preference name="DisallowOverscroll" value="true"/>
     <preference name="LoadingDialog" value=","/>
     <preference name="LoadUrlTimeoutValue" value="null"/>
+    <preference name="OverrideUserAgent" value="MyCordovaApp/1.2.3" />
     <access origin="http://www.winecountry.com" subdomains="true"/>
     <allow-navigation href="http://www.winecountry.com"/>
     <platform name="ios">

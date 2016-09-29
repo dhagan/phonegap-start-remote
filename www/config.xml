@@ -41,12 +41,13 @@
     <preference name="DisallowOverscroll" value="true"/>
     <preference name="LoadingDialog" value=","/>
     <preference name="LoadUrlTimeoutValue" value="null"/>
-    <preference name="OverrideUserAgent" value="MyCordovaApp/1.2.3" />
     <access origin="http://www.winecountry.com" subdomains="true"/>
     <allow-navigation href="http://www.winecountry.com"/>
     <platform name="ios">
+        <preference name="OverrideUserAgent" value="WineCountryiOS" />
     </platform>
     <platform name="android">
+        <preference name="OverrideUserAgent" value="WineCountryAndroid" />
     </platform>
     <icon src="icon.png"/>
 </widget>

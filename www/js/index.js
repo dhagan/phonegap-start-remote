@@ -38,7 +38,7 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         window.location =  "http://www.winecountry.com";
-        alert('4 hello world');
+        alert('5 hello world');
         var parentElement = document.getElementById(id);
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');

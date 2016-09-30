@@ -1,53 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets"
-        xmlns:gap="http://phonegap.com/ns/1.0"
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        id="com.winecountry"
-        versionCode=""
-        version="1.0.0">
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.winecountry" version="1.0.0" versionCode="" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Wine Country</name>
     <description>Wine Country Demo</description>
-    <author href="http://www.winecountry.com/" email="rolf@winecountry.com">Rolf Kaiser</author>
-    <content src="http://www.winecountry.com"/>
-    <preference name="phonegap-version" value="cli-6.3.0"/>
-    <preference name="android-build-tool" value="gradle"/>
-    <preference name="orientation" value="default"/>
-    <preference name="fullscreen" value="true"/>
-    <preference name="target-device" value="universal"/>
-    <preference name="webviewbounce" value="true"/>
-    <preference name="prerendered-icon" value="false"/>
-    <preference name="stay-in-webview" value="true"/>
-    <preference name="ios-statusbarstyle" value="default"/>
-    <preference name="detect-data-types" value="true"/>
-    <preference name="exit-on-suspend" value="true"/>
-    <preference name="show-splash-screen-spinner" value="true"/>
-    <preference name="auto-hide-splash-screen" value="true"/>
-    <preference name="FadeSplashScreen " value="true"/>
-    <preference name="EnableViewportScale" value="false"/>
-    <preference name="MediaPlaybackRequiresUserAction" value="false"/>
-    <preference name="AllowInlineMediaPlayback" value="true"/>
-    <preference name="BackupWebStorage" value="none"/>
-    <preference name="TopActivityIndicator" value="white"/>
-    <preference name="KeyboardDisplayRequiresUserAction" value="true"/>
-    <preference name="KeyboardShrinksView" value="true"/>
-    <preference name="HideKeyboardFormAccessoryBar" value="true"/>
-    <preference name="SuppressesIncrementalRendering" value="false"/>
-    <preference name="windows-identity-name" value=""/>
-    <preference name="android-minSdkVersion" value="14"/>
-    <preference name="android-installLocation" value="auto"/>
-    <preference name="SplashScreenDelay" value="2000"/>
-    <preference name="ErrorUrl" value="null"/>
-    <preference name="BackgroundColor" value="0x000000"/>
-    <preference name="DisallowOverscroll" value="true"/>
-    <preference name="LoadingDialog" value=","/>
-    <preference name="LoadUrlTimeoutValue" value="null"/>
-    <access origin="http://www.winecountry.com" subdomains="true"/>
-    <allow-navigation href="http://www.winecountry.com"/>
+    <author email="rolf@winecountry.com" href="http://www.winecountry.com/">Rolf Kaiser</author>
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" />
+    <preference name="target-device" value="universal" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="false" />
+    <preference name="stay-in-webview" value="true" />
+    <preference name="ios-statusbarstyle" value="default" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="true" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="FadeSplashScreen " value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="TopActivityIndicator" value="white" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="KeyboardShrinksView" value="true" />
+    <preference name="HideKeyboardFormAccessoryBar" value="true" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="windows-identity-name" value="" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="android-installLocation" value="auto" />
+    <preference name="SplashScreenDelay" value="2000" />
+    <preference name="ErrorUrl" value="null" />
+    <preference name="BackgroundColor" value="0x000000" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="LoadingDialog" value="," />
+    <preference name="LoadUrlTimeoutValue" value="null" />
+    <access origin="http://www.winecountry.com" subdomains="true" />
+    <allow-navigation href="http://www.winecountry.com" />
     <platform name="ios">
-        <preference name="OverrideUserAgent" value="WineCountryiOS" />
+        <preference name="OverrideUserAgent" value="WineCountryiOS/1.0.0" />
     </platform>
     <platform name="android">
-        <preference name="OverrideUserAgent" value="WineCountryAndroid" />
+        <preference name="OverrideUserAgent" value="WineCountryAndroid/1.0.0" />
     </platform>
-    <icon src="icon.png"/>
+    <icon src="icon.png" />
 </widget>

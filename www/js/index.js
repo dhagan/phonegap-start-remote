@@ -20,5 +20,6 @@ var app = {
     // Update DOM on a Received Event
     receivedEvent: function(id) {
         window.location =  "http://www.winecountry.com";
+        return;
     }
 };
